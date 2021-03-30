@@ -1,0 +1,6 @@
+<launch>
+  
+<node pkg = "beginner_tutorials" name = "talker2" type ="talker2.py" output = "screen">
+</node>
+
+</launch>  

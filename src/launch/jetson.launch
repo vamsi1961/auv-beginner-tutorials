@@ -1,0 +1,29 @@
+<launch>
+
+<node
+name="save"
+pkg="beginners_tutorials"
+type="/home/kishore/catkin_ws/src/beginner_tutorials/src"
+launch-prefix="xterm -e"
+>
+<!-- <node name="foo" pkg="bar" type="bar_node" output="screen" launch-prefix="xterm -e" /> -->
+</node>
+<!-- <node pkg='beginners_tutorials' type='flowpressure2.py'  name="flow"/> -->
+
+
+<!-- <node 
+pkg='beginners_tutorials'
+type='loggingjetson1.2.py'  
+name="listener"
+
+/>
+
+<node 
+pkg='beginners_tutorials'
+type=''  
+name="pid_tune"
+
+/>  -->
+
+
+</launch>
