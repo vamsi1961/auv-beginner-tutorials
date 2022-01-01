@@ -30,3 +30,10 @@ from varuna@192.168.1.233 - rewuired folder (./ present folder)
 
 it is static ip
 
+connecting vscode to jetson:
+
+install remote ssh extrension in vscode to access the jetson codes into the system
+
+after installing we can sync jetson codes to vscode
+
+
