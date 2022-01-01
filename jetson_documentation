@@ -1,0 +1,32 @@
+go to ipv4
+for connecting 2 devices netmask and gateway must be same for connecting devices
+
+if gateway is 192.168.1.1 and netmask is 255.255.255.0 when we bitwise and both we will get 192.168.1.0 i.e network 192.168.1.0  can have 255 devices of Address 192.168.1.0 - 192.168.1.255
+
+
+jetsons ip address -- 192.168.1.233
+jetson netmask - 255.255.255.0
+jetson default gateway - 192.168.1.1
+
+netmask and gateway of our connecting device and jetson must be same
+
+to get it  --
+nmap 192.168.1* 
+we get devices in our network 
+
+Our ip address must be 192.168.1.xxx 
+
+jetson netmask - 255.255.255.0
+
+jetson password -- varuna
+
+ssh varuna@192.168.1.233 -- to access jetson ls
+
+scp -r varuna@192.168.1.233:~/* ./ 
+
+-r -- recursively
+
+from varuna@192.168.1.233 - rewuired folder (./ present folder)
+
+it is static ip
+
